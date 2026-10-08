@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="aurora" data-font="inter">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>MICU Central Roster</title>
+<meta name="theme-color" content="#F3F5FB" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="MICU Roster" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="icon-180.png" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="app"><div class="spin" aria-label="Loading"></div></div>
+<div class="overlay" id="overlay"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Details"></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="firebase-config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
