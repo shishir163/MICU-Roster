@@ -350,3 +350,6 @@ table.rt{border-collapse:separate; border-spacing:0; font-size:.74rem; min-width
 
 @media (prefers-reduced-motion:reduce){*{transition:none !important; animation:none !important;}}
 :focus-visible{outline:2px solid var(--k2); outline-offset:2px;}
+
+.btn.install{display:flex; align-items:center; justify-content:center; gap:8px; width:100%; flex:none; margin-top:14px; background:var(--ink); color:var(--surface); border-color:var(--ink);}
+.ihelp{margin:12px 0 0; font-size:.76rem;}
