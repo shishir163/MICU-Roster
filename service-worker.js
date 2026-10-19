@@ -1,5 +1,5 @@
 // Offline shell. Roster data itself is cached by Firestore (IndexedDB), not here.
-const CACHE = "micu-roster-v6";
+const CACHE = "micu-roster-v7";
 const ASSETS = ["./", "./index.html", "./styles.css", "./app.js", "./xls-writer.js", "./firebase-config.js", "./manifest.json",
   "./icon.svg", "./icon-180.png", "./icon-192.png", "./icon-512.png",
   "./fonts/lato-400.woff2", "./fonts/lato-700.woff2",
